@@ -16,7 +16,7 @@ header p{position: absolute;right: 5vw;top: 0;line-height: 90px;display: inline;
 }
 
 
-main{background-image: url(image/p0.png);
+main{background-image: url(image/p0.png);width: 100%;
 }
 
 
@@ -119,7 +119,7 @@ section.h3:hover p {
 }
 .h4 a:hover{text-decoration: underline;
 }
-footer{background-color: rgb(65, 65, 65);padding-top: 30px;padding-bottom: 20px;color: whitesmoke;
+footer{background-color: rgb(65, 65, 65);padding-top: 30px;padding-bottom: 20px;color: whitesmoke;width: 100%;
 }
 footer p{margin-left: 40vw;
 }
@@ -157,4 +157,10 @@ footer p{margin-left: 40vw;
 .p3 p {color: whitesmoke;font-size: 20px;margin-left: 180px;margin-top: -30px;
 }
 .p3 h1{font-size: 30px;
+}
+
+/*  */
+@media screen and (max-width:768px){
+    header ul{display:none}
+    header h1{left:50%;transform: translateX(-50%);}
 }
