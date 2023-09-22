@@ -14,17 +14,8 @@ header li{display:inline;margin-right: 5vw;font-size: 22px;
 }
 header p{position: absolute;right: 5vw;top: 0;line-height: 90px;display: inline;font-size: 25px; 
 }
-
-
 main{background-image: url(image/p0.png);width: 100%;
 }
-
-
-
-
-
-
-
 
 .home{background-image:url(image/a1.png);background-repeat: no-repeat;background-position: center;padding: 390px 0px 200px;background-size: cover;
 }
@@ -50,11 +41,6 @@ section.h1:hover p {
     opacity: 1; /* 鼠标悬停时显示 */
 }
 
-
-
-
-
-
 .h2{margin-left: 10vw;border-radius: 20px;margin-top: 0px;margin-bottom: 0px;font-size: 25px;color: whitesmoke;
 }
 .h2 img{margin-left: 70vw;}
@@ -79,8 +65,6 @@ section.h2:hover p {
 }
 
 
-
-
 .h3{margin-left: 10vw;border-radius: 20px;margin-top: 0px;margin-bottom: 0px;font-size: 25px;color: whitesmoke;
 }
 .h3 h1{margin-left: 1vw;
@@ -103,10 +87,6 @@ section.h3:hover p {
     opacity: 1; /* 鼠标悬停时显示 */
 }
 
-
-
-
-
 .h4{margin-left: 45vw;border-radius: 20px;margin-top: 0px;margin-bottom: 0px;font-size: 25px;color: whitesmoke;padding-bottom: 150px;
 }
 .h4 h1{margin-left: 8px;margin-bottom: 0px;
@@ -123,6 +103,26 @@ footer{background-color: rgb(65, 65, 65);padding-top: 30px;padding-bottom: 20px;
 }
 footer p{margin-left: 40vw;
 }
+
+
+
+
+
+.p0{margin-left: 15vw;border-radius: 20px;margin-bottom: 0px;color: whitesmoke;padding-bottom: 100px;padding-top: 100px;margin-right: 20vw;
+}
+.p0 a {text-decoration: none;color: whitesmoke;
+}
+.p0 a:hover{text-decoration: underline;
+}
+.p0 p {color: whitesmoke;font-size: 20px;margin-left: 180px;margin-top: -30px;
+}
+.p0 h1{font-size: 30px;
+}
+
+
+
+
+
 
 
 .p1{margin-left: 10vw;border-radius: 20px;margin-bottom: 0px;color: whitesmoke;padding-top: 100px;padding-bottom: 100px;
@@ -159,6 +159,10 @@ footer p{margin-left: 40vw;
 .p3 h1{font-size: 30px;
 }
 
+
+.menu{
+    display: none;
+}
 /*  */
 @media screen and (max-width:768px){
     header ul{display:none}
@@ -192,5 +196,16 @@ footer p{margin-left: 40vw;
     .h4 ul{margin-left: -150px;
     }
     .p2 h2{margin-right: 10vw;
+    }
+    .menu{
+        display: block;
+        background-color: transparent;
+        color: whitesmoke;
+        font-size: 35px;
+        position: absolute;
+        top: 15px;
+        left: 20px;
+        border: none;
+        cursor: pointer;
     }
 }
