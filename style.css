@@ -114,9 +114,11 @@ footer p{margin-left: 40vw;
 }
 .p0 a:hover{text-decoration: underline;
 }
-.p0 p {color: whitesmoke;font-size: 20px;margin-left: 180px;margin-top: -30px;
+.p0 h1{font-size: 30px;color: whitesmoke;margin-top: -30px;
 }
-.p0 h1{font-size: 30px;
+.p0 h2{font-size: 25px;
+}
+.p0 h3{font-size: 20px;
 }
 
 
