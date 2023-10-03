@@ -103,10 +103,8 @@ footer{background-color: rgb(65, 65, 65);padding-top: 30px;padding-bottom: 20px;
 }
 footer p{margin-left: 40vw;
 }
-
-
-
-
+footer h3{margin-left: 30vw;margin-top: -8px;
+}
 
 section.p0{margin-left: 15vw;border-radius: 20px;margin-bottom: 0px;color: whitesmoke;padding-bottom: 100px;padding-top: 100px;margin-right: 20vw;
 }
@@ -161,8 +159,6 @@ section.p0{margin-left: 15vw;border-radius: 20px;margin-bottom: 0px;color: white
 .p3 h1{font-size: 30px;
 }
 
-footer h3{margin-left: 30%;margin-top: -8px;
-}
 
 .menu{
     display: none;
