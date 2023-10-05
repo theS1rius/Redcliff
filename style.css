@@ -159,6 +159,32 @@ section.p0{margin-left: 15vw;border-radius: 20px;margin-bottom: 0px;color: white
 .p3 h1{font-size: 30px;
 }
 
+.p4{margin-left: 15vw;border-radius: 20px;margin-bottom: 0px;color: whitesmoke;padding-bottom: 100px;padding-top: 100px;margin-right: 20vw;
+}
+.p4 a {text-decoration: none;color: whitesmoke;
+}
+.p4 a:hover{text-decoration: underline;
+}
+.p4 p {color: whitesmoke;font-size: 30px;margin-left: 180px;margin-top: -30px;
+}
+.p4 h2{margin-left: 190px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .menu{
     display: none;
