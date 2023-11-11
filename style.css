@@ -6,19 +6,40 @@ header a{color: whitesmoke;text-decoration: none;border: none;
 }
 header a:hover{text-decoration: underline;
 }
-header img{position: absolute;left: 2vw;top: 15px;
+header img{position: absolute;left: 2vw;top: -1px;
 }
-header ul{position: absolute;left: 10vw;top: 0;line-height: 90px;
+header ul{position: absolute;left: 15vw;top: 0px;line-height: 100px;
 }
-header li{display:inline;margin-right: 5vw;font-size: 22px;
+header li{display:inline;margin-right: 7vw;font-size: 27px;
 }
-header p{position: absolute;right: 5vw;top: 0;line-height: 90px;display: inline;font-size: 25px; 
-}
+
 main{background-image: url(image/p0.png);width: 100%;
 }
 
-.home{background-image:url(image/a1.png);background-repeat: no-repeat;background-position: center;padding: 390px 0px 200px;background-size: cover;
+
+.main{background-image:url(image/a2.png);background-repeat: no-repeat;padding: 105px 0px 0px;background-size: cover;
 }
+
+
+
+.home{background-image:url(image/a1.png);background-repeat: no-repeat;background-position: center;padding: 590px 0px 0px;background-size: cover;
+}
+
+
+
+
+.h0{background-color: whitesmoke;padding: 30px 0px 30px;
+}
+.h0 p{text-align: center;font-size: 35px;
+}
+.h0 h5{margin-left: 55vw;font-size: 25px;
+}
+
+
+
+
+
+
 .h1{margin-left: 10vw;border-radius: 20px;margin-top: 100px;margin-bottom: 0px;font-size: 25px;color: whitesmoke;
 }
 .h1 h1{margin-left: 12vw;margin-top: -140px;
@@ -59,88 +80,57 @@ section.h1:hover p {
     opacity: 0; /* 初始时隐藏 */
     transition: opacity 0.5s; /* 添加淡入淡出过渡效果，持续时间为0.5秒 */
 }
-
 section.h2:hover p {
     opacity: 1; /* 鼠标悬停时显示 */
 }
 
 
-.h3{margin-left: 10vw;border-radius: 20px;margin-top: 0px;margin-bottom: 0px;font-size: 25px;color: whitesmoke;
-}
-.h3 h1{margin-left: 1vw;
-}
-.h3 p {
-    margin-left: 12vw;
-    margin-right: 20vw;
-    border-radius: 20px;
-    margin-top: -180px;
-    margin-bottom: 0px;
-    font-size: 25px;
-    color: whitesmoke;
-    background-color: gray;
-    padding: 30px 50px;
-    opacity: 0; /* 初始时隐藏 */
-    transition: opacity 0.5s; /* 添加淡入淡出过渡效果，持续时间为0.5秒 */
-}
-
-section.h3:hover p {
-    opacity: 1; /* 鼠标悬停时显示 */
-}
-
-.h4{margin-left: 45vw;border-radius: 20px;margin-top: 0px;margin-bottom: 0px;font-size: 25px;color: whitesmoke;padding-bottom: 150px;
-}
-.h4 h1{margin-left: 8px;margin-bottom: 0px;
-}
-.h4 ul{position: absolute;margin-top: 50px;margin-left: -215px;
-}
-.h4 li{display: inline;margin-right: 5vw;font-size: 25px;
-}
-.h4 a{text-decoration: none;border: 1px solid whitesmoke;padding: 10px 20px;border-radius: 10px;color: whitesmoke;
-}
-.h4 a:hover{text-decoration: underline;
-}
 footer{background-color: rgb(65, 65, 65);padding-top: 30px;padding-bottom: 20px;color: whitesmoke;width: 100%;
 }
-footer p{margin-left: 40vw;
+footer h3{text-align: center;
 }
-footer h3{margin-left: 35vw;margin-top: -8px;
+footer ul{text-align: center;margin-bottom: 30px;
+}
+footer li{display: inline;margin-right: 2vw;font-size: 25px;
+}
+footer a{text-decoration: none;border: 1px solid whitesmoke;padding: 10px 20px;border-radius: 10px;color: whitesmoke;
+}
+footer a:hover{text-decoration: underline;
 }
 
-.p0{margin-left: 10vw;border-radius: 20px;margin-bottom: 0px;color: whitesmoke;padding-bottom: 100px;padding-top: 100px;margin-right: 20vw;
+
+
+.p0{padding-bottom: 100px;padding-top: 100px;
+}
+.p0 p {color: whitesmoke;font-size: 30px;text-align: center;padding: 10px 500px 10px;
+}
+.p0 h1 {color: whitesmoke;font-size: 45px;text-align: center;
+}
+.p0 h2 {color: whitesmoke;text-align: center;
 }
 .p0 a {text-decoration: none;color: whitesmoke;font-size: 40px;
 }
 .p0 a:hover{text-decoration: underline;
 }
-.p0 p {color: whitesmoke;font-size: 30px;
+
+
+.p1{color: whitesmoke;padding-top: 100px;padding-bottom: 100px;
 }
-
-
-
-
-
-.p1{margin-left: 10vw;border-radius: 20px;margin-bottom: 0px;color: whitesmoke;padding-top: 100px;padding-bottom: 100px;
-}
-.p1 a {text-decoration: none;color: whitesmoke;
+.p1 a {text-decoration: none;color: whitesmoke;font-size: 35px;
 }
 .p1 a:hover{text-decoration: underline;
 }
-.p1 p {color: whitesmoke;font-size: 40px;
+.p1 h1{color: whitesmoke;font-size: 40px;text-align: center;
 }
-.p1 h1{font-size: 30px;
+.p1 h2{color: whitesmoke;font-size: 35px;text-align: center;
+}
+.p1 p{color: whitesmoke;font-size: 45px;text-align: center;
+}
+.p1 h3{color: whitesmoke;text-align: center;
 }
 
 
-.p2{margin-left: 10vw;border-radius: 20px;margin-bottom: 0px;color: whitesmoke;padding-bottom: 100px;
-}
-.p2 a {text-decoration: none;color: whitesmoke;
-}
-.p2 a:hover{text-decoration: underline;
-}
-.p2 p {color: whitesmoke;font-size: 40px;
-}
-.p2 h1{font-size: 30px;
-}
+
 
 .p3{margin-left: 15vw;border-radius: 20px;margin-bottom: 0px;color: whitesmoke;padding-bottom: 100px;padding-top: 100px;margin-right: 20vw;
 }
@@ -167,6 +157,45 @@ footer h3{margin-left: 35vw;margin-top: -8px;
 .menu{
     display: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.image-container img {
+    margin: 10px;
+    max-width: 70%; /* 設定最大寬度為螢幕寬度的70% */
+    height: auto; /* 保持比例 */
+    object-fit: cover;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*  */
 @media screen and (max-width:768px){
     header ul{display:none}
@@ -188,17 +217,6 @@ footer h3{margin-left: 35vw;margin-top: -8px;
     margin-top: 80px;
     margin-bottom: 0px;
     font-size: 20px;}
-    .h3 h1{margin-left: 1vw;
-    }
-    .h3 p {
-        margin-left: 35vw;
-        margin-top: -180px;
-        font-size: 20px;
-    }
-    .h4{margin-left: 35vw;
-    }
-    .h4 ul{margin-left: -150px;
-    }
     .p2 h2{margin-right: 10vw;
     }
     .menu{
