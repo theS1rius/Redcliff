@@ -20,13 +20,8 @@ main{background-image: url(image/p0.png);width: 100%;
 .main{background-image:url(image/a2.png);background-repeat: no-repeat;padding: 105px 0px 0px;background-size: cover;
 }
 
-
-
 .home{background-image:url(image/a1.png);background-repeat: no-repeat;background-position: center;padding: 590px 0px 0px;background-size: cover;
 }
-
-
-
 
 .h0{background-color: whitesmoke;padding: 30px 0px 30px;
 }
@@ -34,10 +29,6 @@ main{background-image: url(image/p0.png);width: 100%;
 }
 .h0 h5{margin-left: 55vw;font-size: 25px;
 }
-
-
-
-
 
 
 .h1{margin-left: 10vw;border-radius: 20px;margin-top: 100px;margin-bottom: 0px;font-size: 25px;color: whitesmoke;
@@ -159,15 +150,6 @@ footer a:hover{text-decoration: underline;
 }
 
 
-
-
-
-
-
-
-
-
-
 .image-container {
     display: flex;
     flex-direction: column;
@@ -180,19 +162,6 @@ footer a:hover{text-decoration: underline;
     height: auto; /* 保持比例 */
     object-fit: cover;
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
